@@ -1,0 +1,1 @@
+Cradle of Civilisation: a HOI4 mod by Ryan Taqi Noorizadeh. Cralde of Civilisation is a Middle Eastern flavor mod to bring life into the Middle East, with new decisions, focus trees, and alternate history decisions.
