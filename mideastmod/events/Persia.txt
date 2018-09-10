@@ -1,0 +1,41 @@
+﻿add_namespace = iran
+
+# Reza Shah Dies
+country_event = {
+	id = iran.1
+	title = iran.1.t
+	desc = iran.1.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	
+	trigger = {
+		has_country_flag = PER_neutrality.tga
+		tag = PER
+	}
+
+	mean_time_to_happen = {
+		days = 2160
+		#modifier = {
+		#	factor = 1.25
+		#	OR = {
+		#		has_country_flag = purged_kalinin
+		#		has_country_flag = purged_khrushchev
+		#		has_country_flag = purged_party_members
+		#	}
+		#}	
+	}
+
+	option = {
+		name = iran.1.a
+		kill_country_leader = yes
+	create_country_leader = {
+		name = "Mohammad Reza Pahlavi"
+		desc = ""
+			picture = "Portrait_Iran_Mohammad_Reza_Pahlavi.dds"
+			expire = "1965.1.1"
+			ideology = despotism
+			traits = {
+				inexperienced_imperialist
+		}
+}

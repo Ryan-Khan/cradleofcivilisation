@@ -1,0 +1,12 @@
+﻿dislikes_russia = {
+	random = no
+	ai_strategy = {
+		type = antagonize
+		id = "SOV"			
+		value = 200
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
